@@ -1,0 +1,20 @@
+   
+*/
+public class functionproduct
+{
+   public static int product(int a ,int b)// 5 aur 10 pass hue;
+   {
+       return a*b;
+   }
+   public static void main(String args[]){
+    
+       int result=product(5,10);// result variable main 50 store hua
+       // jvm program terminate kar deta  hai
+      
+      
+       System.out.println(result);
+       
+   }
+   
+   // main()-product(5,10)-multiply-return 50-store in result-print 50-end
+}
